@@ -16,6 +16,8 @@
 		589F1C15297410D800E4D89D /* Movie_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C14297410D800E4D89D /* Movie_AppUITestsLaunchTests.swift */; };
 		589F1C24297418EB00E4D89D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C22297418EB00E4D89D /* MainViewController.swift */; };
 		589F1C25297418EB00E4D89D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589F1C23297418EB00E4D89D /* MainViewController.xib */; };
+		589F1C2F29741E0300E4D89D /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C2E29741E0300E4D89D /* MainViewController+TableView.swift */; };
+		589F1C3129741F4400E4D89D /* MainVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C3029741F4400E4D89D /* MainVIewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		589F1C14297410D800E4D89D /* Movie_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		589F1C22297418EB00E4D89D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		589F1C23297418EB00E4D89D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		589F1C2E29741E0300E4D89D /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		589F1C3029741F4400E4D89D /* MainVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			children = (
 				589F1C22297418EB00E4D89D /* MainViewController.swift */,
 				589F1C23297418EB00E4D89D /* MainViewController.xib */,
+				589F1C2E29741E0300E4D89D /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		589F1C2729741A0200E4D89D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				589F1C3029741F4400E4D89D /* MainVIewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -332,7 +338,9 @@
 			files = (
 				589F1C24297418EB00E4D89D /* MainViewController.swift in Sources */,
 				589F1BEF297410D300E4D89D /* AppDelegate.swift in Sources */,
+				589F1C3129741F4400E4D89D /* MainVIewModel.swift in Sources */,
 				589F1BF9297410D300E4D89D /* Movie_App.xcdatamodeld in Sources */,
+				589F1C2F29741E0300E4D89D /* MainViewController+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
