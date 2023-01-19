@@ -18,6 +18,10 @@
 		589F1C25297418EB00E4D89D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589F1C23297418EB00E4D89D /* MainViewController.xib */; };
 		589F1C2F29741E0300E4D89D /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C2E29741E0300E4D89D /* MainViewController+TableView.swift */; };
 		589F1C3129741F4400E4D89D /* MainVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C3029741F4400E4D89D /* MainVIewModel.swift */; };
+		589F1C332974232900E4D89D /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C322974232900E4D89D /* NetworkConstant.swift */; };
+		589F1C35297426E000E4D89D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C34297426E000E4D89D /* APICaller.swift */; };
+		589F1C372974275A00E4D89D /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F1C362974275A00E4D89D /* TrendingMoviesModel.swift */; };
+		58F935E82979CDBA00A3BF35 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F935E72979CDBA00A3BF35 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		589F1C23297418EB00E4D89D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		589F1C2E29741E0300E4D89D /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
 		589F1C3029741F4400E4D89D /* MainVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewModel.swift; sourceTree = "<group>"; };
+		589F1C322974232900E4D89D /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		589F1C34297426E000E4D89D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		589F1C362974275A00E4D89D /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
+		58F935E72979CDBA00A3BF35 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +180,7 @@
 		589F1C2929741A1800E4D89D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				589F1C362974275A00E4D89D /* TrendingMoviesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +188,7 @@
 		589F1C2A29741A1F00E4D89D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				58F935E72979CDBA00A3BF35 /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -201,6 +211,8 @@
 		589F1C2D29741A4C00E4D89D /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				589F1C322974232900E4D89D /* NetworkConstant.swift */,
+				589F1C34297426E000E4D89D /* APICaller.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -339,7 +351,11 @@
 				589F1C24297418EB00E4D89D /* MainViewController.swift in Sources */,
 				589F1BEF297410D300E4D89D /* AppDelegate.swift in Sources */,
 				589F1C3129741F4400E4D89D /* MainVIewModel.swift in Sources */,
+				589F1C372974275A00E4D89D /* TrendingMoviesModel.swift in Sources */,
+				58F935E82979CDBA00A3BF35 /* Observable.swift in Sources */,
+				589F1C35297426E000E4D89D /* APICaller.swift in Sources */,
 				589F1BF9297410D300E4D89D /* Movie_App.xcdatamodeld in Sources */,
+				589F1C332974232900E4D89D /* NetworkConstant.swift in Sources */,
 				589F1C2F29741E0300E4D89D /* MainViewController+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

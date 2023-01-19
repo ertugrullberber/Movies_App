@@ -23,6 +23,12 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
     
+    func reloadTableView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         viewModel.numberOfSection()
     }
@@ -33,8 +39,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
-        cell.textLabel?.text = "\(indexPath.row)"
+        let movieData = cellDataSources[indexPath.row]
+        cell.textLabel?.text = self.viewModel.getMovietitle(movieData)
         return cell
     }
     
