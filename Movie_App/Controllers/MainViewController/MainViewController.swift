@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
     var viewModel: MainViewModel = MainViewModel()
     
     //Variables:
-    var cellDataSources: [Movie] = []
+    var cellDataSources: [MovieTableCellViewModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class MainViewController: UIViewController {
     
     func configView() {
         self.title = "Main View"
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = .systemBackground
         
         setupTableView()
     }
