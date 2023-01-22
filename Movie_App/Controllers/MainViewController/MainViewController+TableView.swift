@@ -52,4 +52,9 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         150
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let movieId = cellDataSources[indexPath.row].id
+        self.openDetails(movieId: movieId)
+    }
+    
 }
